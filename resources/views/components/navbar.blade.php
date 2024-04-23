@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="{{ asset('logo-7.png') }}" alt="Logo" height="50">
+      <img src="{{ asset('https://erp.silicon.ac.in/Admission/upload/image/sit_logo.png') }}" alt="Logo" height="50">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,23 +15,29 @@
           <a class="nav-link fw-bold" href="{{ route('about') }}">About Us</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ route('contact') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+          <a class="nav-link fw-bold dropdown-toggle" href="{{ route('contact') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Clubs
           </a>
-          <ul class="dropdown-menu fw-bold">
-            <li><a class="dropdown-item fw-bold" href="#">Action</a></li>
-            <li><a class="dropdown-item fw-bold" href="#">Another action</a></li>
+          <ul class="bg-secondary-subtle dropdown-menu fw-bold">
+            <li><a class="dropdown-item fw-bold" href="#">Cricket Club</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item fw-bold" href="#">Something else here</a></li>
+            <li><a class="dropdown-item fw-bold" href="#">Dance Club</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item fw-bold" href="#">Music Club</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item fw-bold" href="#">Drama Club</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item fw-bold" href="#">Volley-ball Club</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold">Functions</a>
         </li>
         
         <li class="nav-item">
           <a class="nav-link fw-bold "href="{{ url('login') }}" >Login/SignUp</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled fw-bold">Disabled</a>
-        </li>
+    
       </ul>
     </div>
   </div>

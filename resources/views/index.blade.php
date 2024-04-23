@@ -8,13 +8,19 @@
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="pic1.jpg" class="d-block w-100" style="max-height: 450px;" alt="Image 1">
+                                <a href="{{ route('cricket') }}">
+                                    <img src="{{asset('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')}}" class="d-block w-100" style="max-height:auto;" alt="Image 1">
+                                </a>
                             </div>
                             <div class="carousel-item">
-                                <img src="pic2.png" class="d-block w-100"  style="max-height: 450px;" alt="Image 2">
+                                <a href="{{ route('dance') }}">
+                                    <img src="pic2.png" class="d-block w-100"  style="max-height: 450px;" alt="Image 2">
+                                </a>
                             </div>
                             <div class="carousel-item">
-                                <img src="pic3.jpg" class="d-block w-100" style="max-height: 450px;"  alt="Image 3">
+                                <a href="{{ route('music') }}">
+                                    <img src="pic3.jpg" class="d-block w-100" style="max-height: 450px;"  alt="Image 3">
+                                </a>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
