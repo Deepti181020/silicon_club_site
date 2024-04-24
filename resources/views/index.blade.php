@@ -8,17 +8,17 @@
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="{{ route('cricket') }}">
+                                <a href="#">
                                     <img src="{{asset('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')}}" class="d-block w-100" style="max-height:auto;" alt="Image 1">
                                 </a>
                             </div>
                             <div class="carousel-item">
-                                <a href="{{ route('dance') }}">
+                                <a href="#">
                                     <img src="pic2.png" class="d-block w-100"  style="max-height: 450px;" alt="Image 2">
                                 </a>
                             </div>
                             <div class="carousel-item">
-                                <a href="{{ route('music') }}">
+                                <a href="#">
                                     <img src="pic3.jpg" class="d-block w-100" style="max-height: 450px;"  alt="Image 3">
                                 </a>
                             </div>
@@ -56,90 +56,135 @@
     <br>
     <hr>
     <div class="text-center fw-bolder">
-        <h1>What's On The Calendar ?</h1>
+        <h1>What's On The Comming Calendar ?</h1>
     </div>
     <br>
     <br>
-    <div class="container">
+    <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
             <div class="notice-board-container">
                 <div class="notice-board">
                     <div class="notices">
-                        <div class="notice">Important notice 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        <div class="notice">Important notice 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        <div class="notice">Important notice 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                        <div class="notice">Important notice 4: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                        <div class="notice">Important notice 5: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <div class="notice">
+                            <a href="#" class="text-dark text-decoration-none ">
+                                Important notice 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </a>
+                        </div>
+
+                        <div class="notice" >
+                            <a href="#" class="text-dark text-decoration-none ">
+                                
+                                Important notice 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </a>        
+                        </div>
+                        <div class="notice" >
+                            <a href="#" class="text-dark text-decoration-none ">
+                                Important notice 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </a>
+                        </div>
+                        <div class="notice">
+                            <a href="#" class="text-dark text-decoration-none ">
+                                Important notice 4: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </a>
+
+                        </div>
+                        <div class="notice">
+                            <a href="#" class="text-dark text-decoration-none ">
+                                Important notice 5: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="image-container">
-                <img src="calandar.jpg" class="animated-image" alt="Calendar Image">
+                <img src="{{asset('https://images.pexels.com/photos/5239917/pexels-photo-5239917.jpeg?auto=compress&cs=tinysrgb&w=&h=750&dpr=1')}}" class="img-fluid" alt="Calendar Image">
             </div>
         </div>
     </div>
     <hr>
     <div class="text-center fw-bolder">
-        <h1>Where You Can Find us?</h1>
+        <h1>Most demanding Clubs</h1>
     </div>
     <br>
-    <div class="row">
-        <div class="card">
-            <div class="card-header ">
-                <img src="/images/photo.jpg">
-            </div>
-            <div class="card-body" style="overflow: hidden;">
-                <p class="card-text text-start " >
-                If stunning images make your heart beat faster, then Silicon’s Photography Club is where you want to be. Amateurs and professionals alike are a part of this vibrant club.
-                </p>
-                <div class="text-center"> <!-- Adjust position as needed -->
-                    <a href="#" class="btn">Read more</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-            <img src="/images/music.jpg">
-            </div>
-            <div class="card-body"  style="overflow: hidden;">
-                <p class="card-text text-start">
-                Soar high as a guitarist, drummer, beatboxer, pianist, a singer or dancer at the Silicon Music Club. Get professionally trained in singing, dancing and guitar, 
-                </p>
-                <div class="text-center"> <!-- Adjust position as needed -->
-                    <a href="#" class="btn">Read more</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-            <img src="/images/sports.jpg">
-            </div>
-            <div class="card-body" style="overflow: hidden;">
-                <p class="card-text text-start ">
-                Indulge your craze for cricket by playing intra and inter college tournaments or weekend games at Silicon’s cricket ground. Network over the love of the game 
-                </p>
-                <div class="text-center"> <!-- Adjust position as needed -->
-                    <a href="#" class="btn">Read more</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-            <img src="/images/creative.jpg">
-            </div>
-            <div class="card-body" style=" overflow: hidden;">
-                <p class="card-text text-start">
-                The Creative Club is the space to nurture the artists in you. Build large 3D structures from waste, learn modern art, face painting or photoshop, or create tattoo 
-                </p>
-                <div class="text-center"> <!-- Adjust position as needed -->
-                    <a href="#" class="btn">Read more</a>
-                </div>
-            </div>
-        </div>
+    <div class="row row-cols-1 row-cols-md-3">
+  <div class="col">
+    <div class="card">
+      <img src="{{asset('https://images.pexels.com/photos/7594006/pexels-photo-7594006.jpeg?auto=compress&cs=tinysrgb')}}" class="card-img-top" alt="photo">
+      <div class="card-body">
+        <h5 class="card-title">Camera Club</h5>
+        <p class="card-text">If you want to become a better photographer, learn more, get and stay inspired, meet others who share your passion, and make new friends, well, nothing beats a camera club.</p>
+        <a href="#" class="btn btn-primary">More Info</a>
+      </div>
     </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/music.jpg" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Music Club</h5>
+        <p class="card-text">Foster creativity, community through collaboration, performances, and social events, providing students with opportunities to explore their musical passions.</p>
+        <a href="#" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{{asset('https://images.pexels.com/photos/2820906/pexels-photo-2820906.jpeg?auto=compress&cs=tinysrgb')}}" class="card-img-top" alt="sports">
+      <div class="card-body">
+        <h5 class="card-title">Sports Club</h5>
+        <p class="card-text">Experience the thrill of victory, the intimacy of teamwork, and the joy of competition with our sports club. Join us for passion-filled matches and moments on the field!</p>
+        <a href="#" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
-    <hr>
+</div>
+    <hr>   
 </x-layout>
+
+@php
+            $styles="
+            .image-container {
+                position: relative;
+                overflow: hidden;
+            }
+            .image-container img {
+                transition: transform 0.5s ease;
+            }
+            .image-container:hover img {
+                transform: scale(1.1);
+            }";
+            
+@endphp
+<style>
+    {!! $styles !!}
+    .notice-board {
+                transition: box-shadow 0.3s;
+            }
+            .notice-board:hover {
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            }
+            .notice {
+                padding: 10px;
+                margin-bottom: 10px;
+                background-color: #f8f9fa;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .row{
+                position:relative;
+                overflow:hidden;
+            }
+            .card{
+                transition:transform 0.5s ease;
+            }
+            .card:hover{
+                transform:scale(1.05);
+            }
+
+</style>
